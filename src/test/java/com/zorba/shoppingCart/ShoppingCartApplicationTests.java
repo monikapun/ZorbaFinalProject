@@ -1,4 +1,4 @@
-package com.zorba.demo;
+package com.zorba.shoppingCart;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
