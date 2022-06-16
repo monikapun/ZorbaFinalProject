@@ -25,8 +25,12 @@ public class ShoppingCartController {
     public CustomerDTO fetchRecords(@RequestParam(name="custId") Long custId) {
         Customer cust = shoppingcartService.fetchItemsSelectedByCustomer(custId);
         CustomerDTO customerDTO = new CustomerDTO();
+System.out.println("Hello");
         return customerDTO;
+
+
     }
+
 
     @DeleteMapping(value="/deleteRecords")
     public Boolean deleteRecords(@RequestParam(name="custId") Long custId) {
